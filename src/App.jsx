@@ -1,19 +1,20 @@
 import About from "./components/About";
+import AllProjects from "./components/AllProjects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
-      <p className="text-red-500">frew is about to code up in here!</p>
+    <>
       <NavBar />
       <Header />
       <About />
-      <Projects />
+      <AllProjects />
       <Contact />
-    </div>
+      <Footer />
+    </>
   );
 }
 
