@@ -1,5 +1,6 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 function Header() {
@@ -25,9 +26,21 @@ function Header() {
           >
             <FaGithub className="mb-5 " size={30} />
           </a>
-          <BsLinkedin className="mb-5 " size={30} />
-          <BsLinkedin className="mb-5 " size={30} />
-          <BsLinkedin className="mb-5 " size={30} />
+          <a
+            className="cursor-pointer"
+            href="https://twitter.com/home"
+            target="_blank"
+          >
+            <AiFillTwitterSquare className="mb-5 " size={30} />
+          </a>
+
+          <a
+            className="cursor-pointer"
+            href="https://twitter.com/home"
+            target="_blank"
+          >
+            <AiFillInstagram className="mb-5 " size={30} />
+          </a>
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center">

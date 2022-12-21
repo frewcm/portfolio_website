@@ -1,4 +1,6 @@
+import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -17,11 +19,46 @@ function Footer() {
             SOCIAL
           </p>
           <div className="flex space-x-3">
-            <BsLinkedin className="text-white" size={25} />
-            <BsLinkedin className="text-white" size={25} />
-            <BsLinkedin className="text-white" size={25} />
-            <BsLinkedin className="text-white" size={25} />
-            <BsLinkedin className="text-white" size={25} />
+            <a
+              className="cursor-pointer"
+              href="https://www.linkedin.com/in/frew-befekadu-a0b44a225"
+              target="_blank"
+            >
+              <BsLinkedin
+                className="  text-gray-200 hover:text-white"
+                size={30}
+              />
+            </a>
+
+            <a
+              className="cursor-pointer"
+              href="https://github.com/frewcm/"
+              target="_blank"
+            >
+              <FaGithub className=" text-gray-200 hover:text-white" size={30} />
+            </a>
+            <a
+              className="cursor-pointer"
+              href="https://github.com/frewcm/"
+              target="_blank"
+            >
+              <AiFillTwitterSquare
+                className=" text-gray-200 hover:text-white"
+                href="https://twitter.com/home"
+                size={30}
+              />
+            </a>
+
+            <a
+              className="cursor-pointer"
+              href="https://twitter.com/home"
+              target="_blank"
+            >
+              <AiFillInstagram
+                className=" text-gray-200 hover:text-white"
+                size={30}
+              />
+            </a>
           </div>
         </div>
       </div>
