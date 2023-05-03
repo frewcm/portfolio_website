@@ -17,12 +17,12 @@ const projectData = {
       externalLink: "http://external.com",
     },
     {
-      name: "Real Estate Landing Page",
+      name: "Gym Website",
       description:
-        "A modern landing page for real estate with beautiful design to display the kind of service and proficiency of the company. made by using React.js and Tailwind css ",
-      image: "/landing.png",
-      github: "https://github.com/frewcm/real_estate_landing_page",
-      externalLink: "https://realestatewesiteapp.netlify.app/",
+        "A modern landing page for gym with beautiful design to display the kind of service and proficiency of the company. made by using React.js, Typescript and Tailwind css ",
+      image: "/evogym.png",
+      github: "https://github.com/frewcm/gym_app",
+      externalLink: "https://evogym-website.netlify.app/",
     },
   ],
 };
